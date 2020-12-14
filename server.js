@@ -22,7 +22,7 @@ var connection = mysql.createConnection({
     database: "employees_db"
   });
 
-  figlet('Shivey Employee Tracker', (err, result) => {
+  figlet('shivey\'\s Employee Tracker', (err, result) => {
     console.log(err || result);
   });
 
@@ -58,7 +58,7 @@ var connection = mysql.createConnection({
           deleteSomething();
         }
         else if (answer.choices === "EXIT") {
-          figlet('Thanks for using FSC Employee Tracker', (err, result) => {
+          figlet('Thanks for using shivey\'\s Employee Tracker', (err, result) => {
             console.log(err || result);
           });
         
@@ -124,7 +124,7 @@ addSomething = () => {
       addEmployee();
     } 
     else if (answer.add === "EXIT") {
-      figlet('Thanks for using FSC Employee Tracker', (err, result) => {
+      figlet('Thanks for using shivey\'\s Employee Tracker', (err, result) => {
         console.log(err || result);
       });
 
@@ -279,7 +279,7 @@ viewSomething = () => {
       viewEmployees();
     }
     else if (answer.viewChoice === "EXIT") {
-      figlet('Thanks for using FSC Employee Tracker', (err, result) => {
+      figlet('Thanks for using shivey\'\s Employee Tracker', (err, result) => {
         console.log(err || result);
       });
 
@@ -342,7 +342,7 @@ updateSomething = () => {
       updateEmployeeManager();
     }
     else if(answer.update === "EXIT") {
-      figlet('Thanks for using FSC Employee Tracker', (err, result) => {
+      figlet('Thanks for using shivey\'\s Employee Tracker', (err, result) => {
         console.log(err || result);
       });
 
@@ -492,7 +492,7 @@ deleteSomething = () => {
     else if (answer.delete === "Delete employee") {
       deleteEmployee();
     } else if(answer.delete === "EXIT") {
-      figlet('Thanks for using FSC Employee Tracker', (err, result) => {
+      figlet('Thanks for using shivey\'\s Employee Tracker', (err, result) => {
         console.log(err || result);
       });
 
