@@ -16,7 +16,7 @@ An application built to help small businesses keep track of exsisting and new em
 ## Installation
 Download the repo run employees_DB.SQL in your work bench then in your command line run npm install then finally run node server.js in the command line to execute the program.
 ## Usage
-This application will be used for a family run business and offer employee management soloution for businesses.
+This application will be used for a family run business and offer employee management solution for businesses.
 ## License
 ## [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Test
