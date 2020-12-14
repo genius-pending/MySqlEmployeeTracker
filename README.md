@@ -27,3 +27,5 @@ I contributed to this project with some tips of w3schools.
 no questions but feel free to contribute.
 ## genius-pending | shivey_khangura@hotmail.com
 ## ![img](https://avatars2.githubusercontent.com/u/67982777?v=4)
+
+![](https://github.com/genius-pending/MySqlEmployeeTracker/blob/main/screenshot.png)
