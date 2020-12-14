@@ -2,6 +2,7 @@ const mysql = require('mysql');
 const inquirer = require('inquirer');
 const { printTable } = require('console-table-printer');
 const figlet = require('figlet');
+require('dotenv').config();
 let roles;
 let departments;
 let managers;
@@ -17,7 +18,7 @@ var connection = mysql.createConnection({
     user: "root",
   
     // Your password
-    password: "root",
+    password: process.env.DB_PASSWORD,
     database: "employees_db"
   });
 

@@ -30,10 +30,10 @@ INSERT INTO department (name)
 VALUES ("Sales"), ("Engineering"), ("Human Resources"), ("Legal"), ("Finance"), ("Artist");
 
 INSERT INTO role (title, salary, department_id)
-VALUES ("CEO", "100000", "7"), ("Software Developer", "70000", "2"), ("CEO", "160000", "3"), ("Lawyer", "60000", "4"), ("Accountant", "60000", "5"), ("Artist", "70000", "6"), ("Salesperson", "40000", "1");
+VALUES ("CEO", "100000", "7"), ("Software Developer", "70000", "2"), ("CEO", "160000", "3"), ("Lawyer", "60000", "4"), ("Accountant", "60000", "5"), ("Director", "70000", "6"), ("Salesperson", "40000", "1");
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Shivey", "Singh", "3","1"), ("Bill", "Gates", "2", "1"), ("Daljit", "Singh", "7", "1"), ("Amerjit", "Kaur", "4", "1"), ("Ricky", "Singh", "5", "1"), ("Tupac", "Shakur", "6", "1"), ("Pablo", "Escobar", "4", "1");
+VALUES ("Shivey", "Singh", "3","1"), ("Bill", "Gates", "2", "1"), ("Daljit", "Singh", "7", "1"), ("Amerjit", "Kaur", "4", "1"), ("Ricky", "Singh", "5", "1"), ("El", "Chapo", "6", "1"), ("Pablo", "Escobar", "4", "1"),("Elon", "Musk", "2", "1");
 -- Query for view all --
 SELECT e.id, e.first_name, e.last_name, d.name AS department, r.title, r.salary, CONCAT_WS(" ", m.first_name, m.last_name) AS manager FROM employee e LEFT JOIN employee m ON m.id = e.manager_id INNER JOIN role r ON e.role_id = r.id INNER JOIN department d ON r.department_id = d.id ORDER BY e.id ASC;
 
