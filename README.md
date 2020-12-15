@@ -14,7 +14,13 @@
 ## Description
 An application built to help small businesses keep track of exsisting and new employees using an SQL datbase and node.js packages. 
 ## Installation
-Download the repo run employees_DB.SQL in your work bench then in your command line run npm install then finally run node server.js in the command line to execute the program.
+Download the repo run employees_DB.SQL in your sql work bench then in your command line run npm install then finally run node server.js in the command line to execute the program.
+The user will also have to create an .env file in their local folder you can copy and paste in the below and change the values as needed for access to the database:
+  HOST = localhost
+    DB_PORT = 3306
+    DB_USERNAME = ""
+    DB_PASSWORD = ""
+    DATABASE = employees_db
 ## Usage
 This application will be used for a family run business and offer employee management solution for businesses.
 ## License
