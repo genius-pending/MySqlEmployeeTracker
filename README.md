@@ -34,6 +34,7 @@ no questions but feel free to contribute.
 ## genius-pending | shivey_khangura@hotmail.com
 ## ![img](https://avatars2.githubusercontent.com/u/67982777?v=4)
 
-![](https://user-images.githubusercontent.com/67982777/105639311-67283080-5e6f-11eb-990c-58da2f88e80f.mov)
+![Untitled_ Jan 24, 2021 6_03 PM](https://user-images.githubusercontent.com/67982777/105639541-e2d6ad00-5e70-11eb-982e-1e2d50bde2cd.gif)
+
 
 ![](https://github.com/genius-pending/MySqlEmployeeTracker/blob/main/screenshot.png)
